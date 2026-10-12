@@ -26,7 +26,7 @@ export function BackToTop() {
   return (
     <button
       onClick={scrollToTop}
-      className="fixed bottom-8 right-8 w-16 h-16 rounded-full border-2 border-muted-foreground/60 bg-background/80 backdrop-blur-sm flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-muted-foreground hover:bg-gray-200 hover:scale-110 transition-all duration-300 z-50 shadow-lg"
+      className="fixed bottom-8 right-8 w-16 h-16 rounded-full border-2 border-[#800020] bg-[#800020] flex items-center justify-center text-white hover:border-[#600018] hover:bg-[#600018] hover:scale-110 transition-all duration-300 z-50 shadow-lg"
       aria-label="Back to top"
     >
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
