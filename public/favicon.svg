@@ -1,0 +1,31 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle background -->
+  <circle cx="24" cy="24" r="24" fill="#800020" />
+  
+  <!-- Inner geometric pattern -->
+  <circle cx="24" cy="24" r="18" fill="none" stroke="white" stroke-width="0.4" opacity="0.3" />
+  
+  <!-- N letter - Left side -->
+  <g>
+    <!-- Left vertical bar -->
+    <rect x="13" y="16" width="2" height="16" fill="white" rx="0.5" />
+    <!-- Diagonal connector -->
+    <path d="M15 16 L21 32" stroke="white" stroke-width="2" stroke-linecap="round" />
+    <!-- Right vertical bar -->
+    <rect x="21" y="16" width="2" height="16" fill="white" rx="0.5" />
+  </g>
+  
+  <!-- R letter - Right side -->
+  <g>
+    <!-- Vertical bar of R -->
+    <rect x="27" y="16" width="2" height="16" fill="white" rx="0.5" />
+    <!-- Top curved part of R -->
+    <path d="M29 16 L32.5 16 C34 16 35 17 35 18.5 C35 20 34 21 32.5 21 L29 21" stroke="white" stroke-width="2" stroke-linecap="round" fill="none" />
+    <!-- Diagonal leg of R -->
+    <path d="M31 21.5 L35 32" stroke="white" stroke-width="2" stroke-linecap="round" />
+  </g>
+  
+  <!-- Decorative dots -->
+  <circle cx="24" cy="8" r="1" fill="white" opacity="0.5" />
+  <circle cx="24" cy="40" r="1" fill="white" opacity="0.5" />
+</svg>

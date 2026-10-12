@@ -1,32 +1,11 @@
-# designwithroselyn
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+  # DesignWithRoselyn
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/roselyns-projects-56d91ba3/v0-roselyn-portfolio-design)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/GRmb1KbPgvf)
+  This is a code bundle for DesignWithRoselyn. The original project is available at https://www.figma.com/design/0uOpBejDctQW9dTZKbWPp5/DesignWithRoselyn.
 
-## Overview
+  ## Running the code
 
-This is the designwithroselyn portfolio - a UI/UX designer portfolio showcasing creative work and user experience design.
+  Run `npm i` to install the dependencies.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
-
-## Deployment
-
-Your project is live at:
-
-**[https://vercel.com/roselyns-projects-56d91ba3/v0-roselyn-portfolio-design](https://vercel.com/roselyns-projects-56d91ba3/v0-roselyn-portfolio-design)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/projects/GRmb1KbPgvf](https://v0.app/chat/projects/GRmb1KbPgvf)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+  Run `npm run dev` to start the development server.
+  
