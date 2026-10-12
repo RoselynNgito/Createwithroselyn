@@ -88,6 +88,7 @@ export function ProjectsGrid() {
       }}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
+        <h1 className="text-3xl md:text-4xl font-bold mb-12">UI/UX design projects</h1>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
           {caseStudies.map((study) => {
             const isVisible = visibleStudies.includes(study.id)

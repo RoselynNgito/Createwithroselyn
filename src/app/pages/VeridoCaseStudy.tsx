@@ -1,4 +1,3 @@
-import { useEffect } from "react"
 import { Navigation } from "../components/Navigation"
 import { Footer } from "../components/Footer"
 import { BackToTop } from "../components/BackToTop"
@@ -21,9 +20,6 @@ const brandingImage = "https://res.cloudinary.com/dhdsr11od/image/upload/v177512
 
 
 export default function VeridoCaseStudy() {
-  useEffect(() => {
-    document.title = "Verido | Design With Roselyn"
-  }, [])
 
   return (
     <div className="min-h-screen" style={{
@@ -52,7 +48,7 @@ export default function VeridoCaseStudy() {
             </motion.div>
 
             {/* Title */}
-            <motion.h2
+            <motion.h1
               className="text-xl md:text-2xl font-semibold text-gray-900 leading-snug mb-6"
               style={{
                 fontFamily: "var(--font-dm-sans), ui-serif, Georgia, Cambria, serif",
@@ -62,7 +58,7 @@ export default function VeridoCaseStudy() {
               transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
             >
               Verido: Turning Business Data into Profitable Decisions
-            </motion.h2>
+            </motion.h1>
 
             {/* Hero Image */}
 <motion.div

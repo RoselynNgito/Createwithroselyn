@@ -1,4 +1,3 @@
-import { createBrowserRouter } from "react-router";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
@@ -6,7 +5,7 @@ import SchoolMatchCaseStudy from "./pages/SchoolMatchCaseStudy";
 import VeridoCaseStudy from "./pages/VeridoCaseStudy";
 import { RootLayout } from "./components/RootLayout";
 
-export const router = createBrowserRouter([
+export const routes = [
   {
     element: <RootLayout />,
     children: [
@@ -32,4 +31,4 @@ export const router = createBrowserRouter([
       },
     ],
   },
-]);
+];

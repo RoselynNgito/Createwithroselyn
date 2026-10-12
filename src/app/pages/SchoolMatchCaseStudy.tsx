@@ -1,4 +1,3 @@
-import { useEffect } from "react"
 import { Navigation } from "../components/Navigation"
 import { Footer } from "../components/Footer"
 import { BackToTop } from "../components/BackToTop"
@@ -24,9 +23,6 @@ const highfiImage = "https://res.cloudinary.com/dhdsr11od/image/upload/v17751477
 
 
 export default function SchoolMatchCaseStudy() {
-  useEffect(() => {
-    document.title = "School-Match | Design With Roselyn"
-  }, [])
 
   return (
     <div className="min-h-screen" style={{
@@ -55,7 +51,7 @@ export default function SchoolMatchCaseStudy() {
             </motion.div>
 
             {/* Title */}
-            <motion.h2
+            <motion.h1
               className="text-xl md:text-2xl font-semibold text-gray-900 leading-snug mb-6"
               style={{
                 fontFamily: "var(--font-dm-sans), ui-serif, Georgia, Cambria, serif",
@@ -65,7 +61,7 @@ export default function SchoolMatchCaseStudy() {
               transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
             >
               School-Match: Connecting Parents with Perfect Educational Opportunities
-            </motion.h2>
+            </motion.h1>
 
             {/* Hero Image */}
             <motion.div
@@ -253,11 +249,11 @@ export default function SchoolMatchCaseStudy() {
             transition={{ duration: 1, ease: "easeOut" }}
           >
             {/* Title */}
-            <h1 className="text-2xl font-semibold text-black-900 uppercase tracking-wide mb-1" style={{
+            <h2 className="text-2xl font-semibold text-black-900 uppercase tracking-wide mb-1" style={{
               fontFamily: "var(--font-source-sans-pro), ui-sans-serif, system-ui, sans-serif",
             }}>
               Empathy Map
-            </h1>
+            </h2>
 
             {/* Description */}
             <p className="text-base text-gray-700 leading-relaxed border-l-4 border-green-900 pl-6 italic mb-1" style={{
