@@ -1,7 +1,8 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import roselynPhoto from "figma:asset/7c35084c7ce290f18c44897dd1c23d16d06313dd.png"
+// Kept in public so the deployment does not depend on a Figma-generated asset ID.
+const roselynPhoto = "/roselyn.jpg"
 
 const skills = [
   "User Interface Design",
